@@ -1,0 +1,24 @@
+/* src/app/modules/carpooling/components/carpooling-offers/carpooling-offers.component.scss */
+.offers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .offer-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .offer-card h3 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .offer-card p {
+    font-size: 1.2em;
+  }
+  
