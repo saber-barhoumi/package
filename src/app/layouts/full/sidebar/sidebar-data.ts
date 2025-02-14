@@ -1,42 +1,8 @@
 import { NavItem } from './nav-item/nav-item';
 
 export const navItems: NavItem[] = [
-  // Main Navigation Categories
-  {
-    navCap: 'Carpooling',
-  },
-  {
-    displayName: 'Carpooling',
-    iconName: 'directions_car',
-    bgcolor: 'success',
-    route: '/carpooling',
-    children: [
-      {
-        displayName: 'Carpooling Offers',
-        iconName: 'local_offer',
-        bgcolor: 'transparent',
-        route: '/carpooling/offers',
-      },
-      {
-        displayName: 'Carpooling Requests',
-        iconName: 'commute',
-        bgcolor: 'transparent',
-        route: '/carpooling/requests',
-      },
-      {
-        displayName: 'History',
-        iconName: 'history',
-        bgcolor: 'transparent',
-        route: '/carpooling/history',
-      },
-      {
-        displayName: 'Statistics ',
-        iconName: 'Staisues',
-        bgcolor: 'transparent',
-        route: '/carpooling/Statistics',
-      },
-    ],
-  },
+ 
+  
   {
     navCap: 'Home',
   },
@@ -127,114 +93,74 @@ export const navItems: NavItem[] = [
 
   
 
+  // Main Navigation Categories
   {
-    navCap: 'Users & Vehicles',
+    navCap: 'Carpooling',
   },
   {
-    displayName: 'Users',
-    iconName: 'people',
-    bgcolor: 'info',
-    route: '/users',
+    displayName: 'Carpooling',
+    iconName: 'directions_car',
+    bgcolor: 'success',
+    route: '/carpooling',
     children: [
       {
-        displayName: 'Users List',
-        iconName: 'format_list_bulleted',
+        displayName: 'Carpooling Offers',
+        iconName: 'local_offer',
         bgcolor: 'transparent',
-        route: '/users/list',
+        route: '/carpooling/offers',
       },
       {
-        displayName: 'Profiles',
-        iconName: 'account_circle',
+        displayName: 'Carpooling Requests',
+        iconName: 'commute',
         bgcolor: 'transparent',
-        route: '/users/profiles',
-      },
-      {
-        displayName: 'Account Verification',
-        iconName: 'verified_user',
-        bgcolor: 'transparent',
-        route: '/users/verification',
-      },
-    ],
-  },
-  {
-    displayName: 'Vehicles',
-    iconName: 'directions_car_filled',
-    bgcolor: 'warning',
-    route: '/vehicles',
-    children: [
-      {
-        displayName: 'Vehicles List',
-        iconName: 'list_alt',
-        bgcolor: 'transparent',
-        route: '/vehicles/list',
-      },
-      {
-        displayName: 'Add a Vehicle',
-        iconName: 'add_circle',
-        bgcolor: 'transparent',
-        route: '/vehicles/add',
-      },
-      {
-        displayName: 'Maintenance',
-        iconName: 'build',
-        bgcolor: 'transparent',
-        route: '/vehicles/maintenance',
-      },
-    ],
-  },
-
-  {
-    navCap: 'Reservations & Payments',
-  },
-  {
-    displayName: 'Reservations',
-    iconName: 'book_online',
-    bgcolor: 'danger',
-    route: '/reservations',
-    children: [
-      {
-        displayName: 'Pending Reservations',
-        iconName: 'pending_actions',
-        bgcolor: 'transparent',
-        route: '/reservations/pending',
-      },
-      {
-        displayName: 'Confirmed Reservations',
-        iconName: 'check_circle',
-        bgcolor: 'transparent',
-        route: '/reservations/confirmed',
+        route: '/carpooling/requests',
       },
       {
         displayName: 'History',
         iconName: 'history',
         bgcolor: 'transparent',
-        route: '/reservations/history',
+        route: '/carpooling/history',
+      },
+      {
+        displayName: 'Statistics ',
+        iconName: 'Staisues',
+        bgcolor: 'transparent',
+        route: '/carpooling/Statistics',
       },
     ],
   },
   {
-    displayName: 'Payments',
-    iconName: 'payment',
-    bgcolor: 'dark',
-    route: '/payments',
+    navCap: 'Loyalty Card',
+  },
+  {
+    displayName: 'Loyalty Card',
+    iconName: 'card_giftcard',
+    bgcolor: 'success',
+    route: '/loyalty-card',
     children: [
       {
-        displayName: 'Transactions',
-        iconName: 'receipt_long',
+        displayName: 'Points Management',
+        iconName: 'star',
         bgcolor: 'transparent',
-        route: '/payments/transactions',
+        route: '/loyalty-card/points-management',
       },
       {
-        displayName: 'Invoices',
-        iconName: 'request_quote',
+        displayName: 'Rewards Management',
+        iconName: 'redeem',
         bgcolor: 'transparent',
-        route: '/payments/invoices',
+        route: '/loyalty-card/rewards-management',
       },
       {
-        displayName: 'Payment Methods',
-        iconName: 'credit_card',
+        displayName: 'Marketing Campaigns',
+        iconName: 'campaign',
         bgcolor: 'transparent',
-        route: '/payments/methods',
+        route: '/loyalty-card/marketing-campaigns',
+      },
+      {
+        displayName: 'Analytics',
+        iconName: 'analytics',
+        bgcolor: 'transparent',
+        route: '/loyalty-card/analytics',
       },
     ],
   },
